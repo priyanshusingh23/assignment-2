@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int p, r, t ,ci;
+	cout<<"enter priciple";
+	cin>> p;
+	cout << "enter rate";
+	cin >> r;
+	cout << "enter time";
+	cin >> t;
+	ci=p*pow((1+r/100),t);
+	cout<< "compound interest" << ci;
+	return 0;
+}
