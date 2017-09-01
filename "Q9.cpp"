@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int x,y;
+	cout<< "side x";
+	cin>> x;
+	y=(double)(sqrt(3)/4)*x*x;
+	cout << "area of equilateral triangle"<< y;
+	return 0;
+}
