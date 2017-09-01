@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int d,w,y;
+	cout<< "number of days d";
+	cin>> d;
+	cout<< "number of year y";
+	cin>> y;
+	cout<< "number of weeks w";
+	cin>> w;
+	y=d/365;
+	w=d/7;
+	cout<< "number of year in days" <<y << "number of weeks in a days" <<w;
+	return 0;
+}
