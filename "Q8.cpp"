@@ -1,0 +1,16 @@
+m>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int x,y,z;
+	cout<< "integer x";
+	cin>> x;
+	cout << "integer y";
+	cin>> y;
+	cout << "integer z";
+	cin>> z;
+	z=((double)1/2)*x*y; 
+	cout<< "area of triangle" << z;
+	return 0;
+}
