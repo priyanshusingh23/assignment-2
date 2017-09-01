@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	float c,f;
+	cout<< "temperature in celsius";
+	cin>> c;
+	cout<< "temperature in fahrenheit";
+	cin>> f;
+	f=((c*9)/5)+32;
+	cout<< "temperature in fahrenheit" <<f ;
+	return 0;
+}
