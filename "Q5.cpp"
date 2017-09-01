@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int a,b;
+	cout<< "integer a";
+	cin>> a;
+	cout<< "integer b";
+	cin>> b;
+	cout<< "power of a is b" << pow(a,b);
+	return 0;
+}
