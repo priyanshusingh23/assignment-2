@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () 
+{
+	int x,y,z;
+	cout<< "integer x";
+	cin>> x;
+	cout << "integer y";
+	cin>> y;
+	cout << "integer z";
+	cin>> z;
+	z=180-x-y;  
+	
+	cout<< "angle of third side" << z;
+	return 0;
+}
